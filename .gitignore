@@ -1,0 +1,40 @@
+# Python 캐시 및 가상환경
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# 에디터 및 OS 관련 파일
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# 환경 변수 및 보안 파일
+.env
+secrets.json
+*.pem
+*.key
+
+# 로그 파일
+*.log
+
+# 데이터 파일 (스크래핑 및 분석 데이터 등, 용량이 크거나 민감할 수 있으므로 기본 제외)
+# data/ 폴더 내의 일부 파일을 추적해야 한다면 !data/filename 과 같이 예외 처리할 수 있습니다.
+*.csv
+*.xlsx
+*.jsonl
+# data/
+
+# 기타 캐시 및 빌드 폴더
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
+
+# Agents 설정 및 스킬 폴더
+.agents/
